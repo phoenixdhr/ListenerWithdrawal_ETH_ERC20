@@ -22,6 +22,7 @@ async function deploy() {
 
     const toSendN = balanceWei.toBigInt() - feeN;
     const tosendB = BigNumber.from(toSendN);
+    
 
     if (toSendN > 0n) {
         console.log(`balance de address Hackeada ${await provider.getBalance(addressHack)} ETH`);

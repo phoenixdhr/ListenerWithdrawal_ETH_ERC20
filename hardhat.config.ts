@@ -57,10 +57,10 @@ const config: HardhatUserConfig = {
         passphrase: "",
       },
 
-      mining: {
-        auto: false,
-        interval: 15000, // un bloque se mina cada 15 segundos
-      }
+      // mining: {
+      //   auto: false,
+      //   interval: 15000, // un bloque se mina cada 15 segundos
+      // }
 
 
 
